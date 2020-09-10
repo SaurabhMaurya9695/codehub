@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.papa {
+    width: 100vw;
+    height: 100vh;
+    background-color: #222f3e;
+    display: grid;
+    place-items: center;
+    /* border: 2px solid red; */
+}
+
+.baccha {
+    width: 45%;
+    height: auto;
+    /* background-color: #222f3e; */
+}
+
+.baccha ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baccha ul li {
+    font-size: 16rem;
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #576574;
+    animation: light 1.3s linear infinite;
+}
+
+.baccha ul li:first-child {
+    padding-left: 0;
+}
+
+@keyframes light {
+    0% {
+        color: #576574;
+    }
+    90% {
+        color: #576574;
+    }
+    100% {
+        color: #f1c40f;
+        text-shadow: 0 0 1rem #d35400, 0 0 1rem #d35400;
+        text-shadow: horizontal vertical shadow color;
+    }
+}
+
+.baccha ul li:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.baccha ul li:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.baccha ul li:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.baccha ul li:nth-child(4) {
+    animation-delay: 0.5s;
+}
+
+.baccha ul li:nth-child(5) {
+    animation-delay: 0.7s;
+}
+
+.baccha ul li:nth-child(6) {
+    animation-delay: 0.9s;
+}
+
+.baccha ul li:nth-child(7) {
+    animation-delay: 1s;
+}
